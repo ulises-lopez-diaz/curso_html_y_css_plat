@@ -1,0 +1,41 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.contenedor {
+    color: whitesmoke;
+    border: 2px solid black;
+    display: inline-block;
+    width: 50%;
+    height: 50%;
+    padding: 70px 50px 70px 50px;
+    position: relative;
+    left: 25%;
+    top: 150px;
+    border-radius: 15px;
+    background-color: purple;
+}
+
+.contenedor2 {
+    color: whitesmoke;
+    border: 2px solid black;
+    display: inline-block;
+    width: 11%;
+    height: 10%;
+    padding: 11px;
+    position: absolute;
+    left: 45%;
+    top: 110px;
+    background-color: blueviolet;
+    box-shadow: none;
+    border-radius: 15px;
+    z-index: 2;
+}
+
+.contenedor2 p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
